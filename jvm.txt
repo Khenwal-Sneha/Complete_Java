@@ -1,0 +1,23 @@
+Hardware->OS->JVM
+
+Source code->javac->bytecode(platform independent)->jvm(platform dependent)->machine code
+
+JVM says you need to tell me from which file it should start(specify the first file)
+
+The first file should have main method(public static void main)
+
+Java is object oriented->everything is object and should have a class
+
+
+
+JDK->JRE->JVM
+JRE->JVM+libraries
+Java Runtime Environment -> JVM 
+
+For running:JRE+JVM (Write Once Run Anywhere)
+
+
+JVM Memory
+    Stack,heap(open space);
+
+    every method will have its own stack

@@ -1,0 +1,56 @@
+VARIABLE: 
+    -> Container for data
+
+JAVA IS STRONGLY TYPED BUT WE HAVE TO TELL WHAT DATATYPE
+
+DATATYPE:
+    -> category of data
+    -> Primitive:
+        -> Integer -> byte,short,int,long
+        -> Float -> double,float
+        -> Character
+        -> Boolean
+            int - 4 bytes -2^31 to -1;
+            long 8 bytes -2^63
+            short 2 bytes -2^15
+            byte 1 byte -2^7
+
+            default->double
+            float num=5.6 -> error 5.6f
+
+            char 2 bytes 256 chars
+            Follows UNICODE
+
+LITERALS:
+    int num1=0b101;
+    int num2=0x7E;
+    int num=10_00_00_000;
+
+Type Conversion(Implicit)
+    byte,short,char->int 
+    int,long,float->double
+    small in big
+
+Type Casting(Explicit Conversion)
+    char ch=(char)25;
+
+Not Possible:
+    char->Boolean
+
+TYPE PROMOTION
+    int a;
+    float b;
+    res=float
+
+CLASSES
+    attributes,methods,constructor
+    class Car{
+        Car(){
+            //constructor
+        }
+    }
+
+OBJECTS
+    instances of a class
+    Car car=new Car();//constructor
+
