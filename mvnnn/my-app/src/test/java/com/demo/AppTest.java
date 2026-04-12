@@ -1,4 +1,4 @@
-package test.java.com.demo;
+package com.demo;
 
 public class AppTest{
     @Test
